@@ -4,10 +4,10 @@ encoding: UTF-8
 
 permalink: /:categories/:title
 
-title: 神奇哥
+title: 神器哥
 tagline: Site Tagline
 production_url : http://www.shenqg.com
 
 navigation:
  - url: /
-   title: 神奇哥
+   title: 神器哥
