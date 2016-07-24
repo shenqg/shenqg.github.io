@@ -1,0 +1,38 @@
+---
+title: 首页
+layout: shell
+description: 神器哥 手机 云销系统 神器哥手机 秒杀 微商神器 云控
+---
+
+<style type="text/css">
+  .section {
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+
+<div class="container">
+  <div id="fullpage">
+    <div class="section" style="background-image: url('/assets/img/01.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/02.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/03.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/04.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/05.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/06.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/07.png')"></div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('#fullpage').fullpage({
+      scrollingSpeed: 1000,
+      navigation: true,
+      responsiveWidth: 800,
+      responsiveHeight: 500
+    })
+  });
+</script>
